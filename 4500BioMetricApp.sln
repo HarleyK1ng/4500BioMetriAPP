@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4500BioMetricApp", "4500BioMetricApp\4500BioMetricApp.csproj", "{6A65DD4C-672E-4458-A2F8-5B5206AE39E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSliderWPF", "..\ImageSliderWPF\ImageSliderWPF\ImageSliderWPF.csproj", "{D2AE1598-0FD8-4E1C-88A9-ED8685BBE6C9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "4500BioMetrtic_25OCT", "4500BioMetrtic_25OCT\4500BioMetrtic_25OCT.vdproj", "{92BB5F0D-5837-4C78-818C-21B1650F8C76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A65DD4C-672E-4458-A2F8-5B5206AE39E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A65DD4C-672E-4458-A2F8-5B5206AE39E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A65DD4C-672E-4458-A2F8-5B5206AE39E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A65DD4C-672E-4458-A2F8-5B5206AE39E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2AE1598-0FD8-4E1C-88A9-ED8685BBE6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2AE1598-0FD8-4E1C-88A9-ED8685BBE6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2AE1598-0FD8-4E1C-88A9-ED8685BBE6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2AE1598-0FD8-4E1C-88A9-ED8685BBE6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BB5F0D-5837-4C78-818C-21B1650F8C76}.Debug|Any CPU.ActiveCfg = Debug
+		{92BB5F0D-5837-4C78-818C-21B1650F8C76}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
