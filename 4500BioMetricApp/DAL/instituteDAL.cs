@@ -15,7 +15,7 @@ namespace _4500BioMetricApp.DAL
         {
             sms_institute ins = new sms_institute();
 
-            using (MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["Connection_String"].ConnectionString))
+            using (MySqlConnection con = new MySqlConnection(ConnectionString.con_string))
             { 
             using (MySqlCommand cmd = new MySqlCommand())
             {

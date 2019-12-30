@@ -17,7 +17,8 @@ namespace _4500BioMetricApp.DAL
         {
             List<sms_employee> emp_list = new List<sms_employee>();
 
-            using (MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["Connection_String"].ConnectionString))
+            //using (MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["Connection_String"].ConnectionString))
+            using (MySqlConnection con = new MySqlConnection(ConnectionString.con_string))
             {
                 using (MySqlCommand cmd = new MySqlCommand())
                 {
@@ -78,7 +79,7 @@ namespace _4500BioMetricApp.DAL
         {
             fp = new ZKFPEngX();
             List<sms_emp_thumb_enroll> enroll_list = new List<sms_emp_thumb_enroll>();
-            using (MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["Connection_String"].ConnectionString))
+            using (MySqlConnection con = new MySqlConnection(ConnectionString.con_string))
             {
                 using (MySqlCommand cmd = new MySqlCommand())
                 {
@@ -126,7 +127,7 @@ namespace _4500BioMetricApp.DAL
         {
             fp = new ZKFPEngX();
             sms_emp_thumb_enroll thumb = new sms_emp_thumb_enroll();
-            using (MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["Connection_String"].ConnectionString))
+            using (MySqlConnection con = new MySqlConnection(ConnectionString.con_string))
             {
                 using (MySqlCommand cmd = new MySqlCommand())
                 {
@@ -174,7 +175,7 @@ namespace _4500BioMetricApp.DAL
             int i = 0;
             try
             {
-                using (MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["Connection_String"].ConnectionString))
+                using (MySqlConnection con = new MySqlConnection(ConnectionString.con_string))
                 {
                     con.Open();
                     using (MySqlTransaction trans = con.BeginTransaction())
@@ -242,7 +243,7 @@ namespace _4500BioMetricApp.DAL
             string mode = "";
             try
             {
-                using (MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["Connection_String"].ConnectionString))
+                using (MySqlConnection con = new MySqlConnection(ConnectionString.con_string))
                 {
                     using (MySqlCommand cmd = new MySqlCommand())
                     {
@@ -272,7 +273,7 @@ namespace _4500BioMetricApp.DAL
             int i = 0;
             try
             {
-                using (MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["Connection_String"].ConnectionString))
+                using (MySqlConnection con = new MySqlConnection(ConnectionString.con_string))
                 {
                     con.Open();
                     
@@ -309,7 +310,7 @@ namespace _4500BioMetricApp.DAL
            List<sms_emp_attendance> att_list = new List<sms_emp_attendance>();
             try
             {
-                using (MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["Connection_String"].ConnectionString))
+                using (MySqlConnection con = new MySqlConnection(ConnectionString.con_string))
                 {
                     using (MySqlCommand cmd = new MySqlCommand())
                     {

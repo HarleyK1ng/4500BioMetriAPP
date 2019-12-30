@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4500BioMetricApp", "4500BioMetricApp\4500BioMetricApp.csproj", "{6A65DD4C-672E-4458-A2F8-5B5206AE39E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSliderWPF", "..\ImageSliderWPF\ImageSliderWPF\ImageSliderWPF.csproj", "{D2AE1598-0FD8-4E1C-88A9-ED8685BBE6C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSliderWPF", "..\ImageSliderWPFPlayerTemplate\ImageSliderWPF\ImageSliderWPF.csproj", "{D2AE1598-0FD8-4E1C-88A9-ED8685BBE6C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

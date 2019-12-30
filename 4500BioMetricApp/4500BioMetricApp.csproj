@@ -102,6 +102,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ConnectionString.cs" />
     <Compile Include="Converter\ByteArrayToImageConverter.cs" />
     <Compile Include="DAL\EmployeeDAL.cs" />
     <Compile Include="DAL\InstituteDAL.cs" />
@@ -202,13 +203,13 @@
     <Resource Include="Assets\1370614099_42192.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ImageSliderWPF\ImageSliderWPF\ImageSliderWPF.csproj">
+    <Content Include="Lib\MySql.Data.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ImageSliderWPFPlayerTemplate\ImageSliderWPF\ImageSliderWPF.csproj">
       <Project>{d2ae1598-0fd8-4e1c-88a9-ed8685bbe6c9}</Project>
       <Name>ImageSliderWPF</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Lib\MySql.Data.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
